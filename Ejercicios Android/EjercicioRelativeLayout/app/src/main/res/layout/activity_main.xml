@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uriel.ejerciciorelativelayout.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:text="@string/login"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:text="@string/nombre"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/apellido"
+        android:layout_height="wrap_content"
+        android:text="@string/apellido"
+        android:layout_below="@id/nombre"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <EditText
+        android:id="@+id/nombre_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/nombre"
+        android:layout_alignBaseline="@id/nombre"
+        android:textSize="14dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/apellido"
+        android:layout_alignBaseline="@id/apellido"
+        android:id="@+id/apellido_edit"
+        android:textSize="14dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:id="@+id/boton_enviar"
+        android:layout_below="@id/apellido_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton_registrar"
+        android:text="@string/registrar"
+        android:layout_below="@id/boton_enviar"
+        android:layout_alignLeft="@id/boton_enviar"
+        android:layout_marginTop="5dp"
+        />
+
+</RelativeLayout>

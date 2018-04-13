@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ComunicacionEntreActivitysEjercicio2</string>
+    <string name="my_app">My App</string>
+    <string name="main_edittext_usuario">Usuario</string>
+    <string name="main_edittext_contraseña">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="welcome">¡Welcome!</string>
+    <string name="register_edittext_confirmar_contraseña">Repetir contraseña</string>
+    <string name="register_edittext_usuario">Usuario</string>
+    <string name="register_edittext_contraseña">Contraseña</string>
+</resources>

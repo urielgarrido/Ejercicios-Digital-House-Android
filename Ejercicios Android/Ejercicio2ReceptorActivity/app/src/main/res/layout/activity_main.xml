@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uriel.ejercicio2receptoractivity.MainActivity">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/nombre"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/nombre"
+        android:layout_below="@id/nombre"
+        android:layout_marginTop="5dp"
+        android:text="@string/apellido"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/apellido"
+        android:layout_below="@id/apellido"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:text="@string/edad"
+        android:textSize="20dp" />
+
+    <EditText
+    android:id="@+id/edittext_nombre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@id/nombre"
+    android:layout_toRightOf="@id/nombre" />
+
+
+    <EditText
+        android:id="@+id/edittext_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/apellido"
+        android:layout_toRightOf="@id/apellido" />
+
+    <EditText
+        android:id="@+id/edittext_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/edad"
+        android:layout_toRightOf="@id/edad" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_mandar"
+        android:layout_below="@id/edittext_edad"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_mandar"
+        />
+
+
+</RelativeLayout>

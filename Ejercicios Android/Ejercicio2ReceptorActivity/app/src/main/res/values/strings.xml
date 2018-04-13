@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ejercicio2ReceptorActivity</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellido">Apellido:</string>
+    <string name="edad">Edad:</string>
+    <string name="button_mandar">Mandar</string>
+    <string name="nombre_recivido">Nombre recivido:</string>
+</resources>

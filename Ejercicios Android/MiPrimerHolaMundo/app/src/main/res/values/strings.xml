@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MiPrimerHolaMundo</string>
+    <string name="boton_confirmar">confirmar</string>
+    <string name="mensaje_lina_vacia">ingrese su nombre aquí</string>
+</resources>

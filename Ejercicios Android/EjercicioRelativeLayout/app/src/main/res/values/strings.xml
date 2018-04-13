@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EjercicioRelativeLayout</string>
+    <string name="login">LOGIN</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellido">Apellido:</string>
+    <string name="enviar">Enviar</string>
+    <string name="registrar">Registrar</string>
+</resources>
